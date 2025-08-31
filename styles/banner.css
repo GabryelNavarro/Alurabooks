@@ -1,0 +1,38 @@
+
+
+.banner{
+    background-color:#09395c;
+    color: #E5E5E5;
+    text-align: center;
+    padding: 2.5rem 2rem;
+}
+
+.banner__titulo{
+    font-size: 1.3rem;
+    font-weight: 700;
+     font-family: var(--fonte-principal)
+}
+
+.baner__texto{
+    font-weight: 400;
+    font-family: var(--fonte-principal);
+    margin: 1rem;
+}
+.banner__pesquisa{
+    background-color: transparent;
+    border: 1px  solid var( --cor-de-fundo);
+    color: var(--cor-de-fundo);
+    border-radius: 1.5rem;
+    padding: 1em;
+    width: 100%;
+}
+
+.banner__pesquisa::placeholder{
+    font-family: var( --fonte-principal);
+    font-size: 0.87rem;
+    font-weight: 400;
+    color: var(--cor-de-fundo);
+    text-align: center;
+    background: url("/img/Lupa.svg") no-repeat;
+   background-position: 0.5rem;
+}

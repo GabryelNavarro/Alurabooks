@@ -1,0 +1,14 @@
+.swiper-slide img{
+    width: 7.8rem;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  display: none;
+ 
+}
+.swiper-pagination{
+position: initial;
+margin: 0.5rem;
+}
+
